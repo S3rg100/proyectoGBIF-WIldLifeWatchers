@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.SceneController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#454545" height="340.0" nodeOrientation="LEFT_TO_RIGHT" smooth="false" stroke="BLACK" strokeType="INSIDE" width="111.0" />
+      <Button layoutY="141.0" mnemonicParsing="false" onAction="#switchToSceneiniciarSesion" prefHeight="57.0" prefWidth="111.0" style="-fx-background-color: transparent; -fx-border-color: orange; -fx-border-width: 2px  0px  2px  2px;" text="Continuar" textFill="WHITE">
+         <font>
+            <Font name="Garamond" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="1.0" prefHeight="18.0" prefWidth="600.0" style="-fx-background-color: #2C3E50;" text="                                                    https://www.wildlifewatchers.com/Inicio                                           -|▥|x" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="241.0" fitWidth="263.0" layoutX="237.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@\C:\Users\sergi\IdeaProjects\wilLiifeWatchers\src\main\resources\Imagenes_views\Bienvenida.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="255.0" layoutY="27.0" prefHeight="18.0" prefWidth="214.0" text="Bienvenido" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0" style="-fx-background-color: #1B4F72;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.SceneController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#454545" height="340.0" nodeOrientation="LEFT_TO_RIGHT" smooth="false" stroke="BLACK" strokeType="INSIDE" width="111.0" />
+      <Label layoutX="1.0" prefHeight="18.0" prefWidth="600.0" style="-fx-background-color: #2C3E50;" text="                                                    https://www.wildlifewatchers.com/Registro%Usuario                     -|▥|x" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="131.0" fitWidth="122.0" layoutX="281.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@\C:\Users\sergi\IdeaProjects\wilLiifeWatchers\src\main\resources\Imagenes_views\registro.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="17.0" mnemonicParsing="false" onAction="#switchToSceneiniciarSesion" prefHeight="57.0" prefWidth="111.0" style="-fx-background-color: transparent; -fx-border-color: #AEC6CF; -fx-border-width: 0px  0px  2px  0px;" text="◃ Atras" textFill="WHITE">
+         <font>
+            <Font name="Garamond" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="287.0" layoutY="191.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: #000000;" textFill="WHITE" />
+      <Label layoutX="172.0" layoutY="187.0" prefHeight="26.0" prefWidth="102.0" text="Usuario" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="287.0" layoutY="232.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: #000000;" textFill="WHITE" />
+      <Label layoutX="173.0" layoutY="228.0" prefHeight="26.0" prefWidth="101.0" text="Contraseña" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="287.0" layoutY="272.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: #000000;" textFill="WHITE" />
+      <Label layoutX="173.0" layoutY="268.0" prefHeight="26.0" prefWidth="101.0" text="Correo" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="19.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="282.0" layoutY="228.0" prefHeight="26.0" prefWidth="128.0" />
+      <TextField layoutX="282.0" layoutY="188.0" prefHeight="25.0" prefWidth="128.0" />
+      <TextField layoutX="282.0" layoutY="269.0" prefHeight="25.0" prefWidth="128.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0" style="-fx-background-color: #78281F;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.SceneController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#454545" height="340.0" nodeOrientation="LEFT_TO_RIGHT" smooth="false" stroke="BLACK" strokeType="INSIDE" width="111.0" />
+      <Button layoutY="18.0" mnemonicParsing="false" onAction="#switchToSceneCamarasTrampa" prefHeight="57.0" prefWidth="111.0" style="-fx-background-color: transparent; -fx-border-color: #AEC6CF; -fx-border-width: 0px  0px  2px  0px;" text="Camaras trampa" textFill="WHITE">
+         <font>
+            <Font name="Garamond" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="1.0" prefHeight="18.0" prefWidth="600.0" style="-fx-background-color: #2C3E50;" text="                                                https://www.wildlifewatchers.com/Inicio/Administrador                  -|▥|x" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="254.0" layoutY="34.0" prefHeight="18.0" prefWidth="214.0" text="¿Que desea hacer hoy?" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutY="76.0" mnemonicParsing="false" onAction="#switchToSceneBusquedaDatos" prefHeight="57.0" prefWidth="111.0" style="-fx-background-color: transparent; -fx-border-color: #AEC6CF; -fx-border-width: 0px  0px  2px  0px;" text="Datos Imagenes" textFill="WHITE">
+         <font>
+            <Font name="Garamond" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutY="134.0" mnemonicParsing="false" onAction="#switchToSceneimagenesClasificacion" prefHeight="57.0" prefWidth="111.0" style="-fx-background-color: transparent; -fx-border-color: #AEC6CF; -fx-border-width: 0px  0px  2px  0px;" text="Clasificacion Imagenes" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Garamond" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="241.0" fitWidth="263.0" layoutX="227.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@\C:\Users\sergi\IdeaProjects\wilLiifeWatchers\src\main\resources\Imagenes_views\Admin.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="192.0" mnemonicParsing="false" onAction="#switchToSceneClasificacionCuentas" prefHeight="57.0" prefWidth="111.0" style="-fx-background-color: transparent; -fx-border-color: #AEC6CF; -fx-border-width: 0px  0px  2px  0px;" text="Administracion Roles" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Garamond" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutY="250.0" mnemonicParsing="false" onAction="#switchToSceneiniciarSesion" prefHeight="57.0" prefWidth="111.0" style="-fx-background-color: transparent; -fx-border-color: #AEC6CF; -fx-border-width: 0px  0px  2px  0px;" text="◃ Atras" textFill="WHITE">
+         <font>
+            <Font name="Garamond" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
